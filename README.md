@@ -1,4 +1,4 @@
-# Load Type Classifier in Power System using Machine Learning
+# Load Type Classifier using Machine Learning
 
 ## Overview
 This project aims to build a machine learning model to predict the "Load_Type" of a power system based on historical data. The classification categories are:
