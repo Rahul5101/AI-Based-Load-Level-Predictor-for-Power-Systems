@@ -29,6 +29,32 @@ The dataset contains the following columns:
 8. **Evaluation**: Assess model performance using accuracy, precision, recall, F1-score, and confusion matrix.
 9. **Reporting**: Analyze feature importances and summarize findings.
 
+## Model Performance
+
+### Logistic Regression
+
+| Class         | Precision | Recall | F1-score |
+|---------------|-----------|--------|----------|
+| Light_Load    | 0.91      | 0.93   | 0.92     |
+| Maximum_Load  | 0.56      | 0.54   | 0.55     |
+| Medium_Load   | 0.65      | 0.65   | 0.65     |
+
+**Overall accuracy:** 0.78
+**The accuracy of Logistic Regression Model is 77.5%**
+---
+
+### Random Forest Classifier
+
+| Class         | Precision | Recall | F1-score |
+|---------------|-----------|--------|----------|
+| Light_Load    | 0.94      | 0.94   | 0.94     |
+| Maximum_Load  | 0.60      | 0.63   | 0.62     |
+| Medium_Load   | 0.70      | 0.67   | 0.69     |
+
+**The accuracy of Logistic Regression Model is 84.5%**
+
+---
+
 ## Usage
 1. Clone this repository and navigate to the project directory.
 2. Ensure the dataset is in the `data/` folder as `load_data.csv`.
